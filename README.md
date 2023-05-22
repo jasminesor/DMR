@@ -1,2 +1,2 @@
 # DMR
-Coming soon...preparing
+Coming soon...Instruction Document preparing...
