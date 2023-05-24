@@ -61,7 +61,7 @@ optional arguments:
 
 This folder contains your dataset file, which must be an excel file in `.xlsx` format. The first row of the dataset file should be the stock name, and from the second row onwards, the stock closing price in ascending chronological order. for examples:
 
-| dataset  | stock 1  | stock 2  | $\cdots$ | stock m  |
+| date  | stock 1  | stock 2  | $\cdots$ | stock m  |
 | -------- | -------- | -------- | -------- | -------- |
 | day 1    | price 1  | price 1  | $\cdots$ | price 1  |
 | day 2    | price 2  | price 2  | $\cdots$ | price 2  |
