@@ -14,11 +14,11 @@ To run the demo properly, your computer needs to meet the following requirements
 
 	The following screen may appear when you open it, please wait for the program to run automatically.
 
-	![VS installer](./docimg/VS installer.png)
+	![VS installer](./docimg/VS_installer.png)
 
 	Once successfully run, please check the appropriate boxes as shown below, then click "Install" in the bottom right corner and wait for it to finish.
 
-	![vs Build](./docimg/vs Build.png)
+	![vs Build](./docimg/vs_Build.png)
 
 	
 
