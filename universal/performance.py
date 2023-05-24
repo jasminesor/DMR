@@ -95,7 +95,7 @@ def rrr(Names, price_data):
     plt.savefig(f'{path}\\{Names}_cw_compare.jpg',
                 bbox_inches='tight', pad_inches=0.05, dpi=700)
     # .eps files may cause bug in python now, this is a original problem in python
-    # plt.savefig(f'{path}/{Names}_cw_compare.eps', format='eps',
+    # plt.savefig(f'{path}\\{Names}_cw_compare.eps', format='eps',
     #             bbox_inches='tight', pad_inches=0.05, dpi=700)
     plt.close()
 
@@ -135,7 +135,7 @@ def rrr(Names, price_data):
     # plt.show()
     plt.savefig(f'{path}\\{Names}_cw_transaction_cost.jpg',
                 bbox_inches='tight', pad_inches=0.05, dpi=700)
-    # plt.savefig(f'{path}/{Names}_cw_transaction_cost.eps', format='eps',
+    # plt.savefig(f'{path}\\{Names}_cw_transaction_cost.eps', format='eps',
     #             bbox_inches='tight', pad_inches=0.05, dpi=700)
     plt.close()
     # plt.clf()

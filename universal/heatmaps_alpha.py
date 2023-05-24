@@ -41,13 +41,11 @@ if __name__ == '__main__':
         print(f"Now running the sentiment of alpha_k in No.{Name.index(name) + 1}/{len(Name)} dataset {name}!")
         os.makedirs(f"{path}\\{name}", exist_ok=True)
         data = pd.read_excel(f'{abs_path_gf}\\data\\{name}.xlsx')
-        # sent_matrix = get_sentiments(pricedata=data)
-        # sent_matrix.reset_index(inplace=True, drop=True)
         if 'date' in data.columns:
             del data['date']
 
         algo_result = DMRUBAH.run_combination(data, alpha=alpha_k)
-        # 建表存储当前数据集所有参数跑完的result
+        # storage all the result
         result_name = pd.DataFrame(columns=metrics)
         for num, res in zip(alpha_k, algo_result):
             result_name.loc[num, 'sharpe'] = res.sharpe

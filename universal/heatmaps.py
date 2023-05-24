@@ -52,7 +52,7 @@ if __name__ == '__main__':
         df = [eval(f"dict({name}, wealth={result.total_wealth})") for result, name in zip(list_result, list_result.names)]
 
         df = pd.DataFrame(df).pivot('alpha', 'agents_num', 'wealth').sort_index(ascending=False)
-        # 导出热力图的点数据
+        # output the original data of each heat maps
         df.to_excel(f"{path}\\{names}_heatmap.xlsx", index=True)
         print('Heat maps is done! Now drawing the figure!')
         plt.figure(1)
@@ -60,7 +60,7 @@ if __name__ == '__main__':
         plt.title(f"Sentiments Heatmap for {names}.", fontname="Times New Roman")
         plt.xlabel(r"Machine number $n$", fontsize=15, fontname="Times New Roman")
         plt.ylabel(r'Step size $\alpha_k$', fontsize=15, fontname="Times New Roman")
-        # 保存热力图
+        # save heat maps
         plt.savefig(f'{path}\\{names}_heatmap.jpg',
                     bbox_inches='tight', pad_inches=0.05, dpi=700)
         plt.close(1)
