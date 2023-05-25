@@ -1,7 +1,7 @@
 # DMR strategy demo
 ![platform](./docimg/platform.svg) ![dependencies](./docimg/dependencies.svg) ![License](./docimg/license.svg)  ![Contributors](./docimg/contributors.svg)  ![Reposize](./docimg/reposize.svg)
 
-This is a project demo of the DMR strategy, which helps users to analyze the performance of a pan-equity strategy based on the mean reversion assumption - the DMR strategy - compared to other pan-equity strategies.
+This is a project demo of the DMR strategy, which helps users to analyze the performance of a universal strategy based on the mean reversion assumption - the DMR strategy - compared to other universal strategies.
 
 ## Preparation
 
