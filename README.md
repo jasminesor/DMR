@@ -26,7 +26,7 @@ To run the demo properly, your computer needs to meet the following requirements
 
 ### RunMe.py
 
-You can run the python file to get the comparison and analysis results of all the strategies. Enter `python .\RunMe.py --help` in the console to get the usage instructions.
+You can run the python file to get the comparison and analysis results of all the strategies. Enter `python .\RunMe.py --help` in your `cmd` or `powershell` console to get the usage instructions.
 ```powershell
 DMRdemo> python .\RunMe.py --help
 	
