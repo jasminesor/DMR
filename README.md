@@ -8,9 +8,9 @@ This is a project demo of the DMR strategy, which helps users to analyze the per
 To run the demo properly, your computer needs to meet the following requirements:
 - Python 3.8[important]: Please make sure you have [Python](https://www.python.org/downloads/) installed. The first recommendation is to use python 3.8, higher versions are theoretically possible.
 
-- BuildTools[optional]: If your system is `Linux` or `MacOS`, you do not need to pay attention to this. Also, please ensure that the system account you are using has write permissions when running.
+- BuildTools[optional]: If your system is `Linux` or `MacOS`, you do not need to pay attention to this. Also, please ensure that the system account you are using has write permissions when you running this software.
 
-	If your computer system is windows, please run "vs_BuildTools.exe" in our project file to generate the underlying build code needed for "cxvopt" package in python. 
+	If your computer system is `Windows`, please run "vs_BuildTools.exe" in our project file to generate the underlying build code needed for "cxvopt" package in python. 
 
 	The following screen may appear when you open it, please wait for the program to run automatically.
 
