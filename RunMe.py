@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument('--d', type=str, default="all",
                         help=r"dataset: run strategies in the dataset you select. default is 'all'."
                              r"for example: --d='name' will run the strategies in 'name.xlsx', "
-                             r"--d='name1,name2' will run strategies in 'name1,xlsx' and 'name2.xlsx'. "
+                             r"--d='name1,name2' will run strategies in 'name1.xlsx' and 'name2.xlsx'. "
                              r"Attention: the .xlsx files must in './data' folder before you run it!!")
     args = parser.parse_args()
     datalist = os.listdir("./data/")
