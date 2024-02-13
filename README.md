@@ -3,6 +3,15 @@
 
 This is a project demo of the DMR strategy, which helps users to analyze the performance of a universal strategy based on the mean reversion assumption - the DMR strategy - compared to other universal strategies.
 
+**Please note:** If you use any part of the code in this repository for your own work, we kindly request that you cite our paper. Citing our work helps us to receive credit for our contributions and encourages further collaboration.  You can find the citation information for our paper below:  
+
+* Title: Distributed mean reversion online portfolio strategy with stock network
+* Authors: Yannan Zhong, Weijun Xu, Hongyi Li, Weiwei Zhong  
+* Journal: European Journal of Operational Research  
+* DOI Link: https://doi.org/10.1016/j.ejor.2023.11.021
+
+Thank you for respecting our work and contributing to the open source community!
+
 ## Preparation
 
 To run the demo properly, your computer needs to meet the following requirements:
